@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package proto;
 
-option go_package = "github.com/faruqi/faruqi-protos/proto/products;products";
+option go_package = "internal/proto";
 
 service ProductService {
     rpc CreateProduct(CreateProductRequest) returns (CreateProductResponse) {}
